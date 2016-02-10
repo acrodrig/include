@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Include JS (Visual) Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <style>
+      p { line-height: initial; }
+      iframe { background-color: #EEE; border: 5px solid #AAA; height: 250px; }
+    </style>
+  </head>
+  <body class="container">
+
+    <h1>Include JS (Visual) Tests</h1>
+
+    <h3>Examples</h3>
+
+    <div class="row">
+      <div class="four columns">
+        <iframe src="simple.html"></iframe>
+        <p>
+          Should display a large header "ACME Inc" (in file <code>header.html</code>) and a small footer "Copyright 2016"
+          (in file <code>footer.html</code>).
+        </p>
+      </div>
+      <div class="four columns">
+        <iframe src="deep.html"></iframe>
+        <p>
+          Should display a cascading set of paragraphs included from each other (seven in total).
+        </p>
+      </div>
+      <div class="four columns">
+        <iframe src="error.html"></iframe>
+        <p>
+          Should display a 404 error. Using CSS we color the content red based on the status. The exact nature of
+          the 404 content depends on what the server returns.
+        </p>
+      </div>
+    </div>
+
+  </body>
+  <script src="demo.js"></script>
+</html>
