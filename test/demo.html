@@ -7,9 +7,13 @@
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
     <style>
       p { line-height: initial; }
-      iframe { background-color: #EEE; border: 5px solid #AAA; height: 250px; }
+      iframe { background-color: #EEE; border: 1px solid #AAA; box-shadow: inset 0 0 5px #AAA; height: 250px; width: 100%; }
+      pre code { font-size: 10px; padding: 10px; }
     </style>
   </head>
   <body class="container">
@@ -18,6 +22,31 @@
 
     <h3>Examples</h3>
 
+    <div class="row">
+      <div class="four columns">
+        <pre><code class="prettyprint">&lt;include src=&quot;header.html&quot;&gt;&lt;/include&gt;
+&lt;article&gt;
+  &lt;p&gt;
+    We are ACME Inc. We manufacture
+    &lt;b&gt;everything&lt;/b&gt;.
+  &lt;/p&gt;
+&lt;/article&gt;
+&lt;include src=&quot;footer.html&quot;&gt;&lt;/include&gt;</code></pre>
+      </div>
+      <div class="four columns">
+        <pre><code class="prettyprint">&lt;ul&gt;
+  &lt;li&gt;&lt;include src=&quot;a.html&quot;&gt;&lt;/include&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;include src=&quot;b.html&quot;&gt;&lt;/include&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+      </div>
+      <div class="four columns">
+        <pre><code class="prettyprint">&lt;h1&gt;Welcome!&lt;/h1&gt;
+&lt;p&gt;
+  Inclusion below displays 404 content.
+&lt;/p&gt;
+&lt;include src=&quot;huh.html&quot;&gt;&lt;/include&gt;</code></pre>
+      </div>
+    </div>
     <div class="row">
       <div class="four columns">
         <iframe src="simple.html"></iframe>
@@ -41,5 +70,6 @@
       </div>
     </div>
 
+    <script>prettyPrint()</script>
   </body>
 </html>

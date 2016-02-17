@@ -8,7 +8,10 @@ A "new" tag for the web:
 ```
 
 I think the main reason why static generators (they are quite popular) need to exist in this day and age is the
-lack of an HTML import facility. You can include pretty much everything, except for HTML. Pretty lame.
+lack of an HTML import facility. With current HTML you can include pretty much everything, except for HTML itself (pretty
+lame IMHO).
+
+[![demo](demo.png#screenshot)](test/demo.html)
 
 
 ## Table of Contents
@@ -27,15 +30,15 @@ lack of an HTML import facility. You can include pretty much everything, except 
 The goals of this library are a completely seamless experience including content via the `<include>` tag. The experience
 needs to be seamless in terms of:
 
-- Simplicity: works like a native tag
+- Simplicity: should work like a native tag
 - Backward Compatibility: fails nicely in older browsers
-- Speed: no screen flickering, fast load times
+- Speed: no screen flickering, fast load times (achieved via `localStorage` and pseudo-[pipelining](https://en.wikipedia.org/wiki/Instruction_pipelining))
 
 
 ## Why Include
 
 - HTML import does not look like happening
-- The `import`` is not declarative, it still needs javascript to insert in the page
+- The `import` syntax is not declarative, it still needs Javascript to insert things into the page
 - No more static generators for something as simple as an `include`
 - Avoid all the performance penalties and flicker associated with dynamic includes (via smart caching)
 
@@ -83,9 +86,9 @@ The fiddle is modified to load the files directly from GitHub, since there is no
 - At this point `include` cannot guard against infinite recursion
 
 
-## Testing Bind
+## Testing Include
 
-There are three visual tests in the `demo.html`.
+There are three visual tests in the [`demo.html`](test/demo.html) file.
 
 
 ## Contributing
