@@ -1,33 +1,31 @@
 {
-    "name": "includ-js",
-    "description": "Fast, drop and forget include HTML for the web",
-    "version": "0.1.0",
-    "private": false,
-    "author": {
-        "name": "Andres C. Rodriguez",
-        "email": "andres@randomcurve.com"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/acrodrig/include"
-    },
-    "keywords": [
-        "html",
-        "include",
-        "import",
-        "web"
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    },
-    "scripts": {
-        "build": "uglifyjs lib/include.js -o dist/include-$npm_package_version.min.js -c -m && cp lib/include.js dist/include-$npm_package_version.js",
-        "postversion": "git push && git push --tags",
-        "version": "npm run build && git add ."
-    },
-    "bugs": {
-        "url": "https://github.com/acrodrig/include/issues"
-    }
+  "name": "includ-js",
+  "description": "Fast, drop and forget include HTML for the web",
+  "version": "0.2.0",
+  "private": false,
+  "author": {
+    "name": "Andres C. Rodriguez",
+    "email": "andres@randomcurve.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acrodrig/include"
+  },
+  "keywords": [
+    "html",
+    "include",
+    "import",
+    "web"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "uglifyjs lib/include.js -o dist/include-$npm_package_version.min.js -c -m && cp lib/include.js dist/include-$npm_package_version.js",
+    "postversion": "git push && git push --tags",
+    "version": "npm run build && git add ."
+  },
+  "bugs": {
+    "url": "https://github.com/acrodrig/include/issues"
+  }
 }
