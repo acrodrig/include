@@ -88,7 +88,8 @@ The fiddle is modified to load the files directly from GitHub, since there is no
 
 ## Testing Include
 
-There are three visual tests in the [`demo.html`](test/demo.html) file.
+There are three visual tests in the [`demo.html`](test/demo.html) file. Additionally you can see the results for
+15 browser shots in the [`shots.html`](test/shots.html) file.
 
 
 ## Contributing
