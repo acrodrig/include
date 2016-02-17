@@ -1,5 +1,5 @@
-Include JS
-==========
+Include JS ([§](//acrodrig.github.com/include))
+===============================================
 
 A "new" tag for the web:
 
@@ -7,7 +7,7 @@ A "new" tag for the web:
 <include src="/path/to/import/file.html"/>
 ```
 
-I think the main reason why static generators (they are quite popular) need to exist in this day and age is the
+The main reason why static generators (they are quite popular) need to exist in this day and age is the
 lack of an HTML import facility. With current HTML you can include pretty much everything, except for HTML itself (pretty
 lame IMHO).
 
