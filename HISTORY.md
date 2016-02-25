@@ -1,3 +1,10 @@
+0.2.1 / 2016-02-23
+==================
+
+- Full IE Compatibility (IE7+)
+- Made documentation a little bit better (with image and link of visual tests)
+
+
 0.2.0 / 2016-02-16
 ==================
 

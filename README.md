@@ -1,5 +1,5 @@
-Include JS ([§](//acrodrig.github.com/include))
-===============================================
+<img src="filled_filter.svg" width="64"> Include JS
+===================================================
 
 A "new" tag for the web:
 
