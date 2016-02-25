@@ -1,5 +1,5 @@
-<img src="filled_filter.svg" width="64"> Include JS
-===================================================
+<img src="https://raw.githubusercontent.com/acrodrig/include/master/filled_filter.svg" width="64"> Include JS
+=============================================================================================================
 
 A "new" tag for the web:
 
