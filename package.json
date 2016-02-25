@@ -1,7 +1,7 @@
 {
   "name": "includ-js",
   "description": "Fast, drop and forget include HTML for the web",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "author": {
     "name": "Andres C. Rodriguez",
