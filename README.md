@@ -1,4 +1,4 @@
-<img src="//acrodrig.github.io/include/filled_filter.svg" width="64"> Include JS
+<img src="http://acrodrig.github.io/include/filled_filter.svg" width="64"> Include JS
 =============================================================================================================
 
 A "new" tag for the web:
